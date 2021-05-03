@@ -1,6 +1,6 @@
 {
   "name": "aws-sam-node-delinker",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "delinker.js",
   "author": "",

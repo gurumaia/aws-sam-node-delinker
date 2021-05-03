@@ -11,8 +11,8 @@ if (fs.pathExistsSync('node_modules')) {
         var dirName = dir.replace(re, '');
         
         fs.copySync(`${dir}/`, `temp/${dirName}/`, { dereference: true });
-        fs.unlinkSync(dir)
+        fs.unlinkSync(dir);
         fs.copySync(`temp/${dirName}`, `${dir}`);
-        fs.removeSync('temp')
+        fs.removeSync('temp');
     })
 }
