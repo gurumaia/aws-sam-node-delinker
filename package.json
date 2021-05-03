@@ -1,0 +1,15 @@
+{
+  "name": "aws-sam-node-delinker",
+  "version": "0.0.2",
+  "description": "",
+  "main": "delinker.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "findit": "^2.0.0",
+    "fs-extra": "^9.1.0"
+  },
+  "bin": {
+    "delinker": "./delinker.js"
+  }
+}
